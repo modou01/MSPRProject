@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/fond.webp') no-repeat center center fixed; 
+    background-size: cover;
+    color: #333;
+}
+
+.navbar {
+    background-color: #343a40; 
+    border-bottom: 3px solid #31c48d;
+}
+
+.navbar-brand img {
+    height: auto;
+    max-height: 50px; 
+}
+
+.hero-section {
+    padding: 150px 0; 
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.identification-section {
+    padding: 50px 0;
+}
+
+
+.results-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 30px; 
+}
+
+.upload-group {
+    margin: 20px 0;
+}
+
+.btn {
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #222;
+    border-top: 3px solid #31c48d;
+}
+
+
+.btn-primary {
+    background-color: #456990; 
+    border-color: #456990; 
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.btn-success {
+    background-color: #49A078; 
+    border-color: #49A078; 
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.btn-info {
+    background-color: #49A078; 
+    border-color: #49A078; 
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #345770; 
+    border-color: #345770;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+}
+
+.btn-success:hover, .btn-success:focus {
+    background-color: #37895D;
+    border-color: #37895D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.btn-info:hover, .btn-info:focus {
+    background-color: #37895D;
+    border-color: #37895D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
